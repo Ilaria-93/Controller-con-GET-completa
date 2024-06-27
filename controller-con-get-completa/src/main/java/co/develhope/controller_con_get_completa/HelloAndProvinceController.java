@@ -13,5 +13,4 @@ public class HelloAndProvinceController {
     public Name name(@RequestParam String nome) {
         return new Name(nome, "Lombardia");
     }
-
 }
